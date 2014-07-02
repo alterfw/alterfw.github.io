@@ -91,6 +91,15 @@ header.header{
 		text-align: center;
 	}
 
+	pre{
+		text-align:left!important;
+		width:100%;
+		max-width: 400px;
+		margin:0 auto;
+		display: block;
+		margin-bottom:20px;
+	}
+
 	h2{
 		text-transform: uppercase;
 		font-weight: 300;

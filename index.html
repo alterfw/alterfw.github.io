@@ -38,7 +38,7 @@
                     <small>A Framework from developers to developers</small>
 
                     <div class="buttons">
-                        <a target="_blank" href="https://github.com/alterfw/alter/releases/tag/0.1.0" class="btn btn-lg btn-danger">Download v0.1.0</a>
+                        <a target="_blank" href="https://github.com/alterfw/alter" class="btn btn-lg btn-danger">Fork on Github</a>
 
                         <a target="_blank" href="http://alter-framework.readthedocs.org/en/latest/index.html" class="btn btn-lg btn-info">Read the documentation</a>
                     </div>
@@ -49,11 +49,38 @@
 
         </header>    
 
-        <main class="main container-fluid">     
+        <main class="main container-fluid">  
 
             <section class="alter-container">
 
-                <h2>How this works?</h2>
+                <h2>Installation</h2>
+
+                <p>
+                   To install Alter you will need <a href="https://getcomposer.org/" target="_blank">Composer</a>. Download Composer and create a <em>composer.json</em> to your theme:
+                </p>
+
+                <pre>composer init</pre>         
+
+                <p>Then add to your composer.json:</p>
+
+                <pre>"minimum-stability": "dev",
+"require": {
+        "alterfw/alter": "dev-master"
+}</pre>       
+
+                <p>Run composer:</p>
+
+                <pre>composer install</pre>
+
+                <p>After this, add this line to your <strong>functions.php</strong>:</p>
+
+                <pre>require_once "vendor/autoload.php";</pre>
+
+            </section>   
+
+            <section class="alter-container">
+
+                <h2>How it works?</h2>
 
                 <p>
                     Alter provides the way to develop model-based Wordpress themes, using models you can easily create post types, custom meta-boxes, and access the post properties.

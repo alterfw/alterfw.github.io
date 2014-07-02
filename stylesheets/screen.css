@@ -7980,6 +7980,15 @@ header.header section .buttons .btn-info {
   text-align: center;
 }
 /* line 94, ../sass/screen.scss */
+.main pre {
+  text-align: left !important;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+/* line 103, ../sass/screen.scss */
 .main h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -7988,7 +7997,7 @@ header.header section .buttons .btn-info {
   padding-top: 60px;
   margin-bottom: 15px;
 }
-/* line 103, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 .main p {
   display: block;
   width: 100%;
@@ -7998,11 +8007,11 @@ header.header section .buttons .btn-info {
   font-size: 18px;
   padding-bottom: 20px;
 }
-/* line 113, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .main img {
   margin-top: 20px;
 }
-/* line 117, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 .main .btn-info {
   background: #cb96ee;
   border: 0;
@@ -8011,34 +8020,34 @@ header.header section .buttons .btn-info {
   min-width: 200px;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 136, ../sass/screen.scss */
 .footer {
   border-top: 1px solid #f0f2f5;
   padding: 30px 0;
   text-align: center;
 }
-/* line 132, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 .footer .buttons {
   padding-bottom: 30px;
 }
 
 @media only screen and (max-width: 1026px) {
-  /* line 141, ../sass/screen.scss */
+  /* line 150, ../sass/screen.scss */
   .alter-container img {
     width: 100% !important;
   }
 }
 @media only screen and (max-width: 960px) {
-  /* line 150, ../sass/screen.scss */
+  /* line 159, ../sass/screen.scss */
   header .alter-container {
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 155, ../sass/screen.scss */
+  /* line 164, ../sass/screen.scss */
   header .alter-container section h2 {
     font-size: 36px !important;
   }
-  /* line 159, ../sass/screen.scss */
+  /* line 168, ../sass/screen.scss */
   header .alter-container .btn {
     margin-bottom: 10px;
   }
